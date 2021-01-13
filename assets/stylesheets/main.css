@@ -1,0 +1,133 @@
+.title {
+	font-size: 50px;
+	font-family: Copperplate, Papyrus, fantasy;
+}
+
+nav li {
+	display: inline-block;
+}
+
+#line {
+	border: 2pxpx groove black;
+}
+
+
+#list_title {
+	font-size: 50px;
+	text-align: left;
+	position: absolute;
+	font-family: Gloria;
+	top: 200px;
+	left: 50px;
+}
+
+.list_img {
+	position: relative;
+	left: 100px;
+	max-width: 65%;
+}
+
+.list_desc {
+	font-size: 17px;
+	position: relative;
+	left: 70px;
+}
+
+.list_item {
+	font-size: 35px;
+	text-align: left;
+	position: absolute;
+	font-family: helvetica;
+	top: 340px;
+	left: 50px;
+}
+
+.div {
+	display: block;
+}
+
+.normal {
+	font-family: helvetica;
+	position: absolute;
+	top: 750px;
+}
+
+.normal2 {
+	font-family: helvetica;
+	position: absolute;
+	top: 800px;
+}
+
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 63%;
+}
+
+.hi {
+	font-family: helvetica;
+	font-weight: bolder;
+	position: absolute;
+	font-size: 450px;
+	top: -240px;
+}
+
+.list {
+	position: absolute;
+	left: -5px;
+	top: 160px
+}
+
+.topright {
+	position: absolute;
+	top: 50px;
+	right: 150px;
+	font-size: 35px;
+	animation-name: spin;
+	animation-duration: 1500ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(.68,-0.55,.27,1.55); 
+}
+
+nav a {
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #554433;
+	color: #fdffef;
+	padding: 15px 15px;
+	border-right: 2px solid black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #cebcb4;
+}
+
+nav li:last-child a {
+	border-right: 0;
+
+}
+
+@font-face { font-family: Gloria; src: url('../../GloriaHallelujah-Regular.ttf'); }
+
+.num {
+	font-size: 50px;
+	text-align: left;
+	position: relative;
+	font-family: Gloria;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
